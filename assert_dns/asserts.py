@@ -7,4 +7,4 @@ def assert_spf(domain):
     except SPFRecordNotFound:
         assert False, "No SPF record found"
     else:
-        assert len(spf['warnings']) == 0, "Warnings"
+        assert len(spf["warnings"]) == 0, "Warnings"
