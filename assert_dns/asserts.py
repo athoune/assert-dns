@@ -1,4 +1,4 @@
-from checkdmarc import get_spf_record, SPFRecordNotFound
+from checkdmarc.spf import get_spf_record, SPFRecordNotFound
 
 
 def assert_spf(domain):
