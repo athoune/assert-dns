@@ -6,6 +6,7 @@ setup(
     description="",
     install_requires=[
         "checkdmarc",
+        "dnspython",
     ],
     packages=find_packages(exclude=["contrib", "docs", "tests"]),
     extras_require={
